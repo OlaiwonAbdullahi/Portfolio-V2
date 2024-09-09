@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="text-center px-4 md:px-0 ">
+    <div className="text-center px-4 md:px-0 mb-24">
       <h2 className="text-2xl md:text-4xl text-white font-inter font-semibold mt-24">
         Get In Touch
       </h2>

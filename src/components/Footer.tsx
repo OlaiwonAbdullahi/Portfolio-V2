@@ -21,7 +21,10 @@ export default function Footer() {
           <button className="flex items-center gap-2 px-4 py-2">
             <img src={Gmail} className="h-5 w-7" alt="Gmail Icon" />
             <span className="text-footer font-poppins text-sm md:text-base">
-              olaiwonabdullahi@gmail.com
+              <a href="mailto:olaiwonabdullahi@gmail.com">
+                {" "}
+                olaiwonabdullahi@gmail.com
+              </a>
             </span>
           </button>
         </div>

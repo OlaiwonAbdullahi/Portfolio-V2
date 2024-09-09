@@ -21,13 +21,14 @@ export default function About() {
         className="mt-8 w-full md:w-3/5 text-white font-poppins text-center leading-normal text-sm md:text-base mx-auto"
         data-aos="fade-up"
       >
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia hic
-        similique doloremque suscipit, enim debitis voluptatem quo! Porro saepe
-        itaque soluta doloremque, natus molestiae nostrum atque iste sequi
-        corrupti repellat. Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Molestiae tempore, sunt eius neque debitis exercitationem eaque
-        architecto laborum aut eveniet nemo ex, officia illum beatae quaerat ea
-        voluptatibus. Officiis, asperiores?
+        I'm a 17-year-old Frontend Developer focused on advancing in the tech
+        field, with a strong interest in improving my skills. Currently, I'm on
+        a FullStack journey at Web3Bridge Cohort XI, working on various
+        projects, including a Quiz App, a replica of Swyft Pay using ReactJS and
+        TailwindCSS, and the Krypto Skool Landing Page. My learning path
+        includes mastering ReactJS, building responsive designs, and handling
+        assets like QR codes in React applications. I am committed to
+        continuously enhancing my web development capabilities.
       </p>
 
       <button

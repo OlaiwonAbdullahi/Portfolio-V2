@@ -30,10 +30,10 @@ export default function Hero() {
         className="text-white text-sm md:text-base font-poppins text-center mx-4 md:mx-auto w-full md:w-2/3 mt-4"
         data-aos="fade-up"
       >
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum fuga
-        excepturi enim placeat quas rerum fugiat, hic assumenda necessitatibus
-        quae fugit accusantium autem voluptatum repellat quos. Repudiandae,
-        repellat. Temporibus, harum!
+        I'm a frontend developer skilled in HTML, CSS, JavaScript, ReactJS,
+        Tailwind CSS, and Bootstrap, with a goal of solving complex societal
+        problems Using 1's and 0's. I'm also interested in Web3, alongside your
+        frontend development skills.
       </p>
       <button
         className="bg-transparent border-textColor rounded-3xl border px-6 py-2 mt-4 font-poppins text-white text-sm md:text-base"

@@ -8,7 +8,7 @@ export default function Nav() {
     setIsOpen(!isOpen);
   };
   return (
-    <nav className="bg-Background p-4 sticky top-0 ">
+    <nav className="bg-Background p-4 sticky top-0 z-10 ">
       <div className="flex item-center justify-between container">
         <div className="mt-4 md:mt-2">
           <span className="font-oleo text-white ">Abdullahi</span>

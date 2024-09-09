@@ -17,19 +17,17 @@ export default function Skills() {
         Explore My Programming Skills
       </span>
 
-      <div className="flex justify-between gap-2">
-        <div className="">
-          <img src={html} alt="" className="h-9 w-9" />
-          <img src={css} alt="" className="h-9 w-9" />
-          <img src={js} alt="" className="h-9 w-9" />
-          <img src={sass} alt="" className="h-9 w-9" />
-          <img src={bootsrap} alt="" className="h-9 w-9" />
-          <img src={react} alt="" className="h-9 w-9" />
-          <img src={git} alt="" className="h-9 w-9" />
-          <img src={github} alt="" className="h-9 w-9" />
-          <img src={tailwind} alt="" className="h-9 w-9" />
-          <img src={git} alt="" className="h-9 w-9" />
-        </div>
+      <div className="flex flex-col md:flex-row items-center gap-6 mx-auto justify-center mt-14">
+        <img src={html} alt="" className="h-20 w-20" />
+        <img src={css} alt="" className="h-20 w-20" />
+        <img src={js} alt="" className="h-20 w-20" />
+        <img src={sass} alt="" className="h-20 w-20" />
+        <img src={bootsrap} alt="" className="h-20 w-20" />
+        <img src={react} alt="" className="h-20 w-20" />
+        <img src={git} alt="" className="h-20 w-20" />
+        <img src={github} alt="" className="h-20 w-20" />
+        <img src={tailwind} alt="" className="h-20 w-20" />
+        <img src={git} alt="" className="h-20 w-20" />
       </div>
     </div>
   );

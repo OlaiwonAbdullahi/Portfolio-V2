@@ -8,7 +8,7 @@ export default function Hero() {
         alt="Hero Image"
         className="h-40 w-40 md:h-56 md:w-56 rounded-full my-2"
       />
-      <h1 className="text-3xl md:text-5xl text-white font-poppins my-4 font-semibold">
+      <h1 className="text-3xl md:text-5xl text-white font-poppins my-4 font-semibold text-center">
         Abdullahi Olaiwon
       </h1>
 

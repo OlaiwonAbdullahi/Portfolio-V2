@@ -8,29 +8,34 @@ export default function Contact() {
         Let's Work Together
       </span>
 
-      <div className="mt-7 w-2/3 flex flex-col mx-auto">
-        <form action="">
-          <label htmlFor="name" className="text-white font-poppins mb-2">
-            Name:{" "}
-          </label>
-
+      <div className="mt-7 w-full md:w-2/3 flex flex-col mx-auto">
+        <form action="" className="flex flex-col items-center">
           <input
             type="text"
             placeholder="Your Name"
             id="name"
-            className="w-1/2 px-3 py-2 border border-Reserved rounded-md bg-Background mb-3"
+            className="w-full md:w-3/4 lg:w-1/2 px-3 py-2 border border-Reserved rounded-md bg-Background mb-4 text-sm md:text-base"
           />
-          <label htmlFor="name" className="text-white font-poppins mb-2">
-            Email:{" "}
-          </label>
 
           <input
-            type="text"
+            type="email"
             placeholder="Your Email"
-            id="Email"
-            className="w-1/2 px-3 py-2 border border-Reserved rounded-md bg-Background"
+            id="email"
+            className="w-full md:w-3/4 lg:w-1/2 px-3 py-2 border border-Reserved rounded-md bg-Background mb-4 text-sm md:text-base"
+          />
+
+          <textarea
+            placeholder="Your Message"
+            id="message"
+            className="w-full md:w-3/4 lg:w-1/2 h-36 px-3 py-2 border border-Reserved rounded-md bg-Background text-sm md:text-base"
           />
         </form>
+
+        <div className="flex justify-center mt-6">
+          <button className="bg-white text-Background px-6 py-2 rounded-xl font-poppins w-full md:w-3/4 lg:w-1/2 font-semibold text-sm md:text-base">
+            Get In Touch
+          </button>
+        </div>
       </div>
     </div>
   );

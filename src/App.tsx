@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Nav from "./components/NavBar";
 import Project from "./components/Project";
+import Skills from "./components/Skills";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Nav />
       <Hero />
       <About />
+      <Skills />
       <Project />
       <Contact />
       <Footer />

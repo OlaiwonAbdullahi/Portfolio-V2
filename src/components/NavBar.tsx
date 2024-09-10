@@ -35,12 +35,12 @@ export default function Nav() {
           <li className="list-none">
             <Link to="#" className="text-textColor font-inter">
               Home
-            </a>
+            </Link>
           </li>
           <li className="list-none">
-            <a href="#" className="text-NavColor font-inter">
+            <Link to="#" className="text-NavColor font-inter">
               About
-            </a>
+            </Link>
           </li>
           <li className="list-none">
             <a href="#" className="text-NavColor font-inter">

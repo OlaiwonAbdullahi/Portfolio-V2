@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
+        kanit: ["Kanit", "sans-serif"],
         poppins: ["Poppins", "system-ui"],
         oleo: ["Oleo Script", "system-ui"],
       },

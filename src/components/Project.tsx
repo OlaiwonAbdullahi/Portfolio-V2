@@ -1,6 +1,6 @@
-import QrCode from "../assets/qrcode.png";
 import github from "../assets/github.svg";
 import arrow from "../assets/arrow.svg";
+import { project } from "../Data";
 
 export default function Project() {
   return (
@@ -11,33 +11,39 @@ export default function Project() {
       <span className="bg-gradient-to-r from-textColor to-white bg-clip-text text-transparent font-poppins mt-1 text-base md:text-lg">
         Some of My Work
       </span>
-
-      <Work />
+      <div className="">
+        {project.map((work) => (
+          <Work key={work.id} work={work} />
+        ))}
+      </div>
     </div>
   );
 }
 
-function Work() {
+function Work({ work }) {
   return (
-    <div className="card border bg-cardBg border-Reserved rounded-md p-3 w-80 ml-4">
+    <div className="card border bg-cardBg border-Reserved rounded-md p-3 w-96 ml-4">
       <div className="">
-        <img src={QrCode} alt="QR Code" className="h-44 w-80" />
+        <img src={work.img} alt={work.title} className="h-52 w-96" />
       </div>
 
       <div className="flex justify-between items-center mt-3">
-        <p className="text-Reserved font-inter basis-2/3 text-left">
-          QR Code Generator & Scanner
+        <p className="text-Reserved font-inter basis-2/3 text-left whitespace-nowrap">
+          {work.title}
         </p>
 
         <div className="flex space-x-2 basis-1/3 justify-end">
-          <a href="https://github.com/OlaiwonAbdullahi/QR-Scanner-generator">
-            <img src={github} alt="GitHub" className="h-8 w-8" />
+          <a href={work.github}>
+            <img src={github} alt="GitHub" className="h-6 w-6" />
           </a>
-          <a href="https://qr-scanner-generator.netlify.app/">
-            <img src={arrow} alt="Live Link" className="h-8 w-8" />
+          <a href={work.liveLink}>
+            <img src={arrow} alt="Live Link" className="h-6 w-6" />
           </a>
         </div>
       </div>
+      <span className="text-textColor font-kanit mt-5 text-sm">
+        Technologies Used: {work.lang}
+      </span>
     </div>
   );
 }

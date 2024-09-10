@@ -18,9 +18,9 @@ export default function App() {
         <About />
         <Skills />
         <Project />
+        <Post />
         <Contact />
         <Footer />
-        <Post />
       </BrowserRouter>
     </div>
   );

@@ -33,10 +33,18 @@ export const project = [
   },
   {
     id: 5,
-    img: "./assets/unity.png",
-    title: "Another Unity Project",
+    img: "./assets/nft-store.png",
+    title: "NFT Store Landing Page",
     lang: "React Js & Tailwind Css",
     github: "https://github.com/OlaiwonAbdullahi/NFT-Mini-Store",
     liveLink: "https://abdul-nft-mini-store.netlify.app/",
+  },
+  {
+    id: 6,
+    img: "./assets/qrcode.png",
+    title: "QR Code Generator & Scanner",
+    lang: "React Js ,Tailwind Css & QR Code Package",
+    github: "https://github.com/OlaiwonAbdullahi/QR-Scanner-generator",
+    liveLink: "https://qr-scanner-generator.netlify.app/",
   },
 ];

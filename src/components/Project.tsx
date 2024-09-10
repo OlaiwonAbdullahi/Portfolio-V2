@@ -1,12 +1,28 @@
+// Import React if you're using JSX
 import github from "../assets/github.svg";
 import arrow from "../assets/arrow.svg";
 import { project } from "../Data";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
-// ..
+
 AOS.init();
 
-export default function Project() {
+// Define the type for the project data
+interface Project {
+  id: number;
+  img: string;
+  title: string;
+  lang: string;
+  github: string;
+  liveLink: string;
+}
+
+// Define the props type for the Work component
+interface WorkProps {
+  work: Project;
+}
+
+export default function ProjectList() {
   return (
     <div className="text-center px-4 md:px-0">
       <h2 className="text-2xl md:text-4xl text-white font-inter font-semibold mt-24">
@@ -28,7 +44,7 @@ export default function Project() {
   );
 }
 
-function Work({ work }) {
+function Work({ work }: WorkProps) {
   return (
     <div className="card border bg-cardBg border-Reserved rounded-md p-3 w-full max-w-sm mx-auto">
       <div className="">

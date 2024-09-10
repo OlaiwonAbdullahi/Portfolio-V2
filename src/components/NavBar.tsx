@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Github from "../assets/github.svg";
 
+import { Link } from "react-router-dom";
 export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -32,7 +33,7 @@ export default function Nav() {
 
         <div className="hidden md:flex flex-grow items-center justify-center space-x-4">
           <li className="list-none">
-            <a href="#" className="text-textColor font-inter">
+            <Link to="#" className="text-textColor font-inter">
               Home
             </a>
           </li>

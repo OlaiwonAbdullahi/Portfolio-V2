@@ -34,7 +34,7 @@ export default function Footer() {
 
       <div className="flex flex-col md:flex-row ">
         <div className="basis-1/2 my-8">
-          <span className="font-poppins  text-Reserved md:ml-24 text-center flex mx-auto ">
+          <span className="font-poppins  text-Reserved md:ml-24 text-center flex mx-auto justify-center md:justify-start">
             &copy; 2024 All Right Reserved
           </span>
         </div>

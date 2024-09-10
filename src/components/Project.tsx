@@ -1,6 +1,10 @@
 import github from "../assets/github.svg";
 import arrow from "../assets/arrow.svg";
 import { project } from "../Data";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
 
 export default function Project() {
   return (
@@ -12,8 +16,10 @@ export default function Project() {
         Some of My Work
       </span>
 
-      {/* Responsive grid for projects */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+      <div
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8"
+        data-aos="fade-right"
+      >
         {project.map((work) => (
           <Work key={work.id} work={work} />
         ))}
@@ -38,12 +44,12 @@ function Work({ work }) {
           {work.title}
         </p>
 
-        <div className="flex space-x-2 justify-end">
+        <div className="flex space-x-4 justify-end">
           <a href={work.github} target="_blank" rel="noopener noreferrer">
             <img src={github} alt="GitHub" className="h-6 w-6" />
           </a>
           <a href={work.liveLink} target="_blank" rel="noopener noreferrer">
-            <img src={arrow} alt="Live Link" className="h-6 w-6" />
+            <img src={arrow} alt="Live Link" className="h-5 w-5" />
           </a>
         </div>
       </div>

@@ -44,10 +44,15 @@ export default function Contact() {
           />
         </form>
 
-        <div className="flex justify-center mt-6">
-          <button className="bg-white text-Background px-6 py-2 rounded-xl font-poppins w-full md:w-3/4 lg:w-1/2 font-semibold text-sm md:text-base">
-            Get In Touch
-          </button>
+        <div className="flex justify-center mt-6 px-4 sm:px-0">
+          <a
+            href="mailto:olaiwonabdullahi@gmail.com"
+            className="w-full md:w-3/4 lg:w-1/2"
+          >
+            <button className="bg-white text-Background px-6 py-3 rounded-xl font-poppins w-full font-semibold text-sm md:text-base">
+              Get In Touch
+            </button>
+          </a>
         </div>
       </div>
     </div>

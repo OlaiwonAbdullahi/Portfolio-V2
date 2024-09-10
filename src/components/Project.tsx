@@ -1,3 +1,5 @@
+import QrCode from "../assets/qrcode.png";
+
 export default function Project() {
   return (
     <div className="text-center px-4 md:px-0 ">
@@ -7,6 +9,22 @@ export default function Project() {
       <span className="bg-gradient-to-r from-textColor to-white bg-clip-text text-transparent font-poppins mt-1 text-base md:text-lg">
         Some of My Work
       </span>
+
+      <Work />
+    </div>
+  );
+}
+
+function Work() {
+  return (
+    <div className="card">
+      <div className="">
+        <img src={QrCode} alt="" />
+      </div>
+      <div className="">
+        <p></p>
+        <span></span>
+      </div>
     </div>
   );
 }

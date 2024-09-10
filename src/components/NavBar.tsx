@@ -37,26 +37,38 @@ export default function Nav() {
           </button>
         </div>
 
-        {/* Desktop menu */}
         <div className="hidden md:flex flex-grow items-center justify-center space-x-4">
           <li className="list-none">
-            <Link to="/" className="text-textColor font-inter" reloadDocument>
+            <Link
+              to="/"
+              className="text-textColor font-inter hover:text-textColor hover:scale-110 transition-transform duration-300 hover:text-xl"
+              reloadDocument
+            >
               Home
             </Link>
           </li>
           <li className="list-none">
-            <Link to="/about" className="text-NavColor font-inter">
+            <Link
+              to="/about"
+              className="text-NavColor font-inter hover:text-textColor hover:scale-110 transition-transform duration-300 hover:text-xl"
+            >
               About
             </Link>
           </li>
           <li className="list-none">
-            <Link to="/projects" className="text-NavColor font-inter">
+            <Link
+              to="/projects"
+              className="text-NavColor font-inter hover:text-textColor hover:scale-110 transition-transform duration-300 hover:text-xl"
+            >
               Projects
             </Link>
           </li>
           <li className="list-none">
-            <Link to="/resume" className="text-NavColor font-inter">
-              Resume
+            <Link
+              to="/Skills"
+              className="text-NavColor font-inter hover:text-textColor hover:scale-110 transition-transform duration-300 hover:text-xl"
+            >
+              Skills
             </Link>
           </li>
         </div>
@@ -67,33 +79,44 @@ export default function Nav() {
             <img src={Github} className="h-11 w-12 mt-4" alt="GitHub Profile" />
           </a>
           <a href="https://wa.link/3sj6up">
-            <button className="bg-transparent border-textColor rounded-xl border px-6 py-2 mt-4 font-poppins text-white text-sm md:text-base">
+            <button className="bg-transparent border-textColor rounded-xl border px-6 py-2 mt-4 font-poppins text-white text-sm md:text-base hover:bg-Reserved hover:text-Background hover:border-Background">
               Contact Me
             </button>
           </a>
         </div>
       </div>
 
-      {/* Mobile menu */}
       {isOpen && (
         <ul className="flex-col md:hidden items-center mx-auto flex">
           <li className="py-2">
-            <Link to="/" className="text-NavColor">
+            <Link
+              to="/"
+              className="text-NavColor hover:text-textColor hover:text-xl"
+            >
               Home
             </Link>
           </li>
           <li className="py-2">
-            <Link to="/About.tsx" className="text-NavColor">
+            <Link
+              to="/About"
+              className="text-NavColor  hover:text-textColor hover:text-xl"
+            >
               About
             </Link>
           </li>
           <li className="py-2">
-            <Link to="/Projects" className="text-NavColor">
+            <Link
+              to="/Projects"
+              className="text-NavColor  hover:text-textColor hover:text-xl"
+            >
               Projects
             </Link>
           </li>
           <li className="py-2 mb-3">
-            <Link to="/Skills" className="text-NavColor">
+            <Link
+              to="/Skills"
+              className="text-NavColor  hover:text-textColor hover:text-xl"
+            >
               Skills
             </Link>
           </li>

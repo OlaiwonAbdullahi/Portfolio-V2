@@ -3,6 +3,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Nav from "./components/NavBar";
+import Post from "./components/Post";
 import Project from "./components/Project";
 import Skills from "./components/Skills";
 import { BrowserRouter } from "react-router-dom";
@@ -19,6 +20,7 @@ export default function App() {
         <Project />
         <Contact />
         <Footer />
+        <Post />
       </BrowserRouter>
     </div>
   );

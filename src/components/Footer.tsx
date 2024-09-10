@@ -20,7 +20,7 @@ export default function Footer() {
         <div className="bg-Background border border-Reserved w-full md:w-auto h-14 rounded-md flex justify-center items-center mx-auto">
           <button className="flex items-center gap-2 px-4 py-2">
             <img src={Gmail} className="h-5 w-7" alt="Gmail Icon" />
-            <span className="text-footer font-poppins text-sm md:text-base">
+            <span className="text-footer font-poppins text-sm md:text-base mb-7">
               <a href="mailto:olaiwonabdullahi@gmail.com">
                 {" "}
                 olaiwonabdullahi@gmail.com
@@ -32,9 +32,9 @@ export default function Footer() {
 
       <hr className="border border-Reserved"></hr>
 
-      <div className="flex">
+      <div className="flex flex-col md:flex-row ">
         <div className="basis-1/2 my-8">
-          <span className="font-poppins  text-Reserved md:ml-24 ">
+          <span className="font-poppins  text-Reserved md:ml-24 text-center flex mx-auto ">
             &copy; 2024 All Right Reserved
           </span>
         </div>

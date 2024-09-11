@@ -1,7 +1,7 @@
 export const project = [
   {
     id: 1,
-    img: "../src/assets/Advice.png",
+    img: "./Advice.png",
     title: "Advice Box",
     lang: "ReactJS,TailwindCSS & Advice Pill API",
     github: "https://github.com/OlaiwonAbdullahi/Advice-Box",
@@ -9,7 +9,7 @@ export const project = [
   },
   {
     id: 2,
-    img: "../src/assets/SwyftPay.png",
+    img: "./SwyftPay.png",
     title: "Swyft Pay Website Clone",
     lang: "ReactJS & TailwindCSS",
     github: "https://github.com/OlaiwonAbdullahi/SwyftPay-Replicate",
@@ -17,7 +17,7 @@ export const project = [
   },
   {
     id: 3,
-    img: "../src/assets/KryptoSkool.png",
+    img: "./KryptoSkool.png",
     title: "Krypto Skool Landing Page",
     lang: "HTML/CSS, JavaScript, Bootstrap & AOS",
     github: "https://github.com/OlaiwonAbdullahi/Krypto-Skool",
@@ -25,7 +25,7 @@ export const project = [
   },
   {
     id: 4,
-    img: "../src/assets/Unity.png",
+    img: "./Unity.png",
     title: "Unity High School Website",
     lang: "HTML/CSS, JavaScript, Bootstrap & AOS",
     github: "https://github.com/OlaiwonAbdullahi/UHSijokoota-website",
@@ -33,7 +33,7 @@ export const project = [
   },
   {
     id: 5,
-    img: "../src/assets/nft-store.png",
+    img: "./nft-store.png",
     title: "NFT Store Landing Page",
     lang: "ReactJS & TailwindCSS",
     github: "https://github.com/OlaiwonAbdullahi/NFT-Mini-Store",
@@ -41,7 +41,7 @@ export const project = [
   },
   {
     id: 6,
-    img: "../src/assets/qrcode.png",
+    img: "./qrcode.png",
     title: "QR Code Generator & Scanner",
     lang: "ReactJS, TailwindCSS & QR Code Package",
     github: "https://github.com/OlaiwonAbdullahi/QR-Scanner-generator",
@@ -49,7 +49,7 @@ export const project = [
   },
   {
     id: 7,
-    img: "../src/assets/portfolio.png",
+    img: "./portfolio.png",
     title: "My Portfolio",
     lang: "ReactJS, TailwindCSS & AOS",
     github: "https://github.com/OlaiwonAbdullahi/Portfolio-V2",

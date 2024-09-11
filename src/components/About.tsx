@@ -30,13 +30,14 @@ export default function About() {
         assets like QR codes in React applications. I am committed to
         continuously enhancing my web development capabilities.
       </p>
-
-      <button
-        className="bg-transparent border-textColor rounded-3xl border px-6 py-2 mt-6 font-poppins text-white text-sm md:text-base"
-        data-aos="fade-up"
-      >
-        Download Resume
-      </button>
+      <a href="https://github.com/OlaiwonAbdullahi">
+        <button
+          className="bg-transparent border-textColor rounded-3xl border px-6 py-2 mt-6 font-poppins text-white text-sm md:text-base"
+          data-aos="fade-up"
+        >
+          View Projects
+        </button>
+      </a>
     </div>
   );
 }

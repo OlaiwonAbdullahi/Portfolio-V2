@@ -16,7 +16,6 @@ export default function Nav() {
           <span className="font-oleo text-white text-xl">Abdullahi</span>
         </div>
 
-        {/* Mobile menu button */}
         <div className="md:hidden mt-4">
           <button
             className="text-footer"
@@ -73,7 +72,6 @@ export default function Nav() {
           </li>
         </div>
 
-        {/* GitHub & Contact */}
         <div className="hidden md:flex items-center gap-3">
           <a href="https://github.com/OlaiwonAbdullahi">
             <img src={Github} className="h-11 w-12 mt-4" alt="GitHub Profile" />
@@ -120,10 +118,11 @@ export default function Nav() {
               Skills
             </Link>
           </li>
-
-          <button className="bg-transparent border-textColor rounded-xl border px-6 py-2 mt-4 font-poppins text-white text-sm md:text-base">
-            Contact Me
-          </button>
+          <a href="https://wa.link/3sj6up">
+            <button className="bg-transparent border-textColor rounded-xl border px-6 py-2 mt-4 font-poppins text-white text-sm md:text-base">
+              Contact Me
+            </button>
+          </a>
         </ul>
       )}
     </nav>

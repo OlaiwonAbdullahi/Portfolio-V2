@@ -9,7 +9,7 @@ export const project = [
   },
   {
     id: 2,
-    img: "../src/assets/swyftpay.png",
+    img: "../src/assets/SwyftPay.png",
     title: "Swyft Pay Website Clone",
     lang: "ReactJS & TailwindCSS",
     github: "https://github.com/OlaiwonAbdullahi/SwyftPay-Replicate",
@@ -17,7 +17,7 @@ export const project = [
   },
   {
     id: 3,
-    img: "../src/assets/kryptoSkool.png",
+    img: "../src/assets/KryptoSkool.png",
     title: "Krypto Skool Landing Page",
     lang: "HTML/CSS, JavaScript, Bootstrap & AOS",
     github: "https://github.com/OlaiwonAbdullahi/Krypto-Skool",
@@ -25,7 +25,7 @@ export const project = [
   },
   {
     id: 4,
-    img: "../src/assets/unity.png",
+    img: "../src/assets/Unity.png",
     title: "Unity High School Website",
     lang: "HTML/CSS, JavaScript, Bootstrap & AOS",
     github: "https://github.com/OlaiwonAbdullahi/UHSijokoota-website",
@@ -52,7 +52,7 @@ export const project = [
     img: "../src/assets/portfolio.png",
     title: "My Portfolio",
     lang: "ReactJS, TailwindCSS & AOS",
-    github: "https://github.com/OlaiwonAbdullahi/QR-Scanner-generator",
+    github: "https://github.com/OlaiwonAbdullahi/Portfolio-V2",
     liveLink: "https://qr-scanner-generator.netlify.app/",
   },
 ];

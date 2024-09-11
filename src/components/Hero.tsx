@@ -35,12 +35,14 @@ export default function Hero() {
         problems Using 1's and 0's. I'm also interested in Web3, alongside your
         frontend development skills.
       </p>
-      <button
-        className="bg-transparent border-textColor rounded-3xl border px-6 py-2 mt-4 font-poppins text-white text-sm md:text-base"
-        data-aos="fade-up"
-      >
-        Contact Me
-      </button>
+      <a href="https://wa.link/3sj6up">
+        <button
+          className="bg-transparent border-textColor rounded-3xl border px-6 py-2 mt-4 font-poppins text-white text-sm md:text-base"
+          data-aos="fade-up"
+        >
+          Contact Me
+        </button>
+      </a>
     </div>
   );
 }

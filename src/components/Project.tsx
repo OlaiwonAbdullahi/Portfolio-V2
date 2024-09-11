@@ -40,6 +40,14 @@ export default function ProjectList() {
           <Work key={work.id} work={work} />
         ))}
       </div>
+      <a href="https://github.com/OlaiwonAbdullahi">
+        <button
+          className="bg-transparent border-textColor rounded-3xl border px-6 py-2 mt-9 mb-9 font-poppins text-white text-sm md:text-base"
+          data-aos="fade-up"
+        >
+          View All Projects
+        </button>
+      </a>
     </div>
   );
 }
@@ -51,7 +59,7 @@ function Work({ work }: WorkProps) {
         <img
           src={work.img}
           alt={work.title}
-          className="h-52 w-full object-cover rounded-md"
+          className="h-52 w-full object-cover rounded-md hover:w-96"
         />
       </div>
 

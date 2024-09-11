@@ -63,12 +63,12 @@ export default function Nav() {
             </Link>
           </li>
           <li className="list-none">
-            <Link
-              to="/Skills"
+            <a
+              href="https://docs.google.com/document/d/1PmtyGVVcy9xQnzoNNcAow_dvKYMAbac32cX0d1jitcM/edit?usp=sharing"
               className="text-NavColor font-inter hover:text-textColor hover:scale-110 transition-transform duration-300 hover:text-xl"
             >
-              Skills
-            </Link>
+              Resume
+            </a>
           </li>
         </div>
 
@@ -111,12 +111,12 @@ export default function Nav() {
             </Link>
           </li>
           <li className="py-2 mb-3">
-            <Link
-              to="/Skills"
+            <a
+              href="https://docs.google.com/document/d/1PmtyGVVcy9xQnzoNNcAow_dvKYMAbac32cX0d1jitcM/edit?usp=sharing"
               className="text-NavColor  hover:text-textColor hover:text-xl"
             >
-              Skills
-            </Link>
+              Resume
+            </a>
           </li>
           <a href="https://wa.link/3sj6up">
             <button className="bg-transparent border-textColor rounded-xl border px-6 py-2 mt-4 font-poppins text-white text-sm md:text-base">

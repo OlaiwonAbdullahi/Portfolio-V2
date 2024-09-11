@@ -7,6 +7,9 @@ import Post from "./components/Post";
 import Project from "./components/Project";
 import Skills from "./components/Skills";
 import { BrowserRouter } from "react-router-dom";
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-W3MX88S0B8");
 
 export default function App() {
   return (

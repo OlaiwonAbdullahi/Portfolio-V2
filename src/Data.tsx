@@ -17,6 +17,14 @@ export const project = [
   },
   {
     id: 3,
+    img: "./Wagmi-AI.png",
+    title: "Wagmi AI ChatBot",
+    lang: "HTML5, CSS3, JavaScript & Gemini API",
+    github: "https://github.com/OlaiwonAbdullahi/Team-Wagmi-AI/",
+    liveLink: "https://team-wagmi-ai.netlify.app/",
+  },
+  {
+    id: 4,
     img: "./KryptoSkool.png",
     title: "Krypto Skool Landing Page",
     lang: "HTML/CSS, JavaScript, Bootstrap & AOS",
@@ -24,7 +32,7 @@ export const project = [
     liveLink: "https://krypto-skool.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     img: "./Unity.png",
     title: "Unity High School Website",
     lang: "HTML/CSS, JavaScript, Bootstrap & AOS",
@@ -32,7 +40,7 @@ export const project = [
     liveLink: "https://unityhighschoolijokoota.netlify.app/",
   },
   {
-    id: 5,
+    id: 6,
     img: "./nft-store.png",
     title: "NFT Store Landing Page",
     lang: "ReactJS & TailwindCSS",
@@ -40,7 +48,7 @@ export const project = [
     liveLink: "https://abdul-nft-mini-store.netlify.app/",
   },
   {
-    id: 6,
+    id: 7,
     img: "./qrcode.png",
     title: "QR Code Generator & Scanner",
     lang: "ReactJS, TailwindCSS & QR Code Package",
@@ -48,7 +56,7 @@ export const project = [
     liveLink: "https://qr-scanner-generator.netlify.app/",
   },
   {
-    id: 7,
+    id: 8,
     img: "./portfolio.png",
     title: "My Portfolio",
     lang: "ReactJS, TailwindCSS & AOS",

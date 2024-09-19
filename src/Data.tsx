@@ -63,4 +63,12 @@ export const project = [
     github: "https://github.com/OlaiwonAbdullahi/Portfolio-V2",
     liveLink: "https://qr-scanner-generator.netlify.app/",
   },
+  {
+    id: 9,
+    img: "./todo.png",
+    title: "My Todo App",
+    lang: "ReactJS, TailwindCSS",
+    github: "https://github.com/OlaiwonAbdullahi/My-Todo-App",
+    liveLink: "https://abdul-todoapp.netlify.app/",
+  },
 ];

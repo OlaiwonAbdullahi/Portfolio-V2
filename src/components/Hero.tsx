@@ -32,7 +32,7 @@ export default function Hero() {
       >
         I'm a frontend developer skilled in HTML, CSS, JavaScript, ReactJS,
         Tailwind CSS, and Bootstrap, with a goal of solving complex societal
-        problems Using 1's and 0's. I'm also interested in Web3, alongside your
+        problems Using 1's and 0's. I'm also interested in Web3, alongside my
         frontend development skills.
       </p>
       <a href="https://wa.link/3sj6up">

@@ -71,4 +71,12 @@ export const project = [
     github: "https://github.com/OlaiwonAbdullahi/My-Todo-App",
     liveLink: "https://abdul-todoapp.netlify.app/",
   },
+  {
+    id: 9,
+    img: "./linkedin.png",
+    title: "LinkedIn Clone",
+    lang: "ReactJS, TailwindCSS, Firebase",
+    github: "https://github.com/OlaiwonAbdullahi/Portfolio-V2",
+    liveLink: "https://abdullahiolaiwon.netlify.app/",
+  },
 ];

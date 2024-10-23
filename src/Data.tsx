@@ -16,6 +16,14 @@ export const project = [
     liveLink: "https://exclusive-ecommerce-store-abdul.vercel.app/",
   },
   {
+    id: 5,
+    img: "./vidocean.png",
+    title: "Vidocean ",
+    lang: "ReactJS, TailwindCSS,Firebase, Youtube API",
+    github: "https://github.com/OlaiwonAbdullahi/Exclusive-Ecommerce-Store",
+    liveLink: "https://exclusive-ecommerce-store-abdul.vercel.app/",
+  },
+  {
     id: 2,
     img: "./SwyftPay.png",
     title: "Swyft Pay Website Clone",
@@ -24,13 +32,21 @@ export const project = [
     liveLink: "https://swyftpay-replicate.brimble.app/",
   },
   {
+    id: 11,
+    img: "./websearch.png",
+    title: "Web Search & Crypto Price Tracker",
+    lang: "ReactJS, TailwindCSS, CoinGecko Api, Google Search Api and Gemini Api",
+    github: "https://github.com/OlaiwonAbdullahi/Web3-Search",
+    liveLink: "https://web3-search-abdul.vercel.app/",
+  },
+  {
     id: 3,
     img: "./Wagmi-AI.png",
     title: "Wagmi AI ChatBot",
     lang: "HTML5, CSS3, JavaScript & Gemini API",
     github: "https://github.com/OlaiwonAbdullahi/Team-Wagmi-AI/",
     liveLink: "https://team-wagmi-ai.netlify.app/",
-    contributor: "Joseph Lamidi,John Nwabueze",
+    contributor: "Bênav",
   },
   {
     id: 4,
@@ -51,7 +67,7 @@ export const project = [
   },
   {
     id: 6,
-    img: "./Unity.png",
+    img: "./Unity2.png",
     title: "Unity High School Website v2 ",
     lang: "ReactJS & TailwindCSS,",
     github: "https://github.com/OlaiwonAbdullahi/UnityHighSch-v2",
@@ -98,13 +114,5 @@ export const project = [
     lang: "ReactJS, TailwindCSS, Firebase",
     github: "https://github.com/OlaiwonAbdullahi/Portfolio-V2",
     liveLink: "https://abdullahiolaiwon.netlify.app/",
-  },
-  {
-    id: 11,
-    img: "./websearch.png",
-    title: "Web Search & Crypto Price Tracker",
-    lang: "ReactJS, TailwindCSS, CoinGecko Api, Google Search Api and Gemini Api",
-    github: "https://github.com/OlaiwonAbdullahi/Web3-Search",
-    liveLink: "https://web3-search-abdul.vercel.app/",
   },
 ];

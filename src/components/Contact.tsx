@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div className="text-center px-4 md:px-0 mb-24">
       <h2
-        className="text-2xl md:text-4xl text-white font-inter font-semibold mt-24"
+        className="text-2xl md:text-4xl text-white font-Maven font-semibold mt-24"
         data-aos="fade-right"
       >
         Get In Touch

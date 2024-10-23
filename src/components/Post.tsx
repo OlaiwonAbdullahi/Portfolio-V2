@@ -2,7 +2,7 @@ import { Tweet } from "react-tweet";
 export default function Post() {
   return (
     <div className="flex flex-col items-center justify-center h-full w-full mt-8">
-      <h2 className="text-center mb-4 text-4xl font-semibold text-white">
+      <h2 className="text-center mb-4 text-4xl font-semibold font-Maven text-white">
         Featured Posts
       </h2>
       <span className="bg-gradient-to-r from-textColor to-white bg-clip-text text-transparent font-poppins mt-1 text-base md:text-lg">

@@ -7,6 +7,7 @@ export default {
         inter: ["Inter", "sans-serif"],
         kanit: ["Kanit", "sans-serif"],
         poppins: ["Poppins", "system-ui"],
+        Maven: ["Maven Pro", "sans-serif"],
         oleo: ["Oleo Script", "system-ui"],
       },
       colors: {

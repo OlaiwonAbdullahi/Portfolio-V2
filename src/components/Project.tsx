@@ -23,7 +23,7 @@ interface WorkProps {
 export default function ProjectList() {
   return (
     <div className="text-center px-4 md:px-0">
-      <h2 className="text-2xl md:text-4xl text-white font-inter font-semibold mt-24">
+      <h2 className="text-2xl md:text-4xl text-white font-Maven font-semibold mt-24">
         Projects
       </h2>
       <span className="bg-gradient-to-r from-textColor to-white bg-clip-text text-transparent font-poppins mt-1 text-base md:text-lg">
@@ -62,7 +62,7 @@ function Work({ work }: WorkProps) {
       </div>
 
       <div className="flex justify-between items-center mt-3">
-        <p className="text-Reserved font-inter text-left text-sm md:text-base whitespace-nowrap">
+        <p className="text-Reserved font-Maven text-left text-sm md:text-base whitespace-nowrap">
           {work.title}
         </p>
 

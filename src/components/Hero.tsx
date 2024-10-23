@@ -14,7 +14,7 @@ export default function Hero() {
         data-aos="fade-right"
       />
       <h1
-        className="text-3xl md:text-5xl text-white font-poppins my-4 font-semibold text-center"
+        className="text-3xl md:text-5xl text-white font-Maven my-4 font-semibold text-center"
         data-aos="fade-left"
       >
         Abdullahi Olaiwon

@@ -7,6 +7,8 @@ import react from "../assets/react.svg";
 import github from "../assets/github.svg";
 import bootsrap from "../assets/bootsrap.svg";
 import tailwind from "../assets/tailwind-css.svg";
+import redux from "../assets/redux.svg";
+import firebase from "../assets/firebase.svg";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
@@ -16,7 +18,7 @@ export default function Skills() {
   return (
     <div className="text-center px-4 md:px-0">
       <h2
-        className="text-2xl md:text-4xl text-white font-inter font-semibold mt-24"
+        className="text-2xl md:text-4xl text-white font-Maven font-semibold mt-24"
         data-aos="fade-right"
       >
         My Tech Skills
@@ -55,6 +57,12 @@ export default function Skills() {
         </div>
         <div className="flex justify-center items-center" data-aos="fade-right">
           <img src={tailwind} alt="Tailwind CSS" className="h-20 w-20" />
+        </div>
+        <div className="flex justify-center items-center" data-aos="fade-right">
+          <img src={redux} alt="Tailwind CSS" className="h-20 w-20" />
+        </div>
+        <div className="flex justify-center items-center" data-aos="fade-right">
+          <img src={firebase} alt="Tailwind CSS" className="h-20 w-20" />
         </div>
       </div>
     </div>

@@ -8,6 +8,14 @@ export const project = [
     liveLink: "https://advice-box.netlify.app/",
   },
   {
+    id: 5,
+    img: "./exclusive.png",
+    title: "Ecommerce Website ",
+    lang: "ReactJS, TailwindCSS,Redux ToolKit, Firebase, DummyJson API",
+    github: "https://github.com/OlaiwonAbdullahi/Exclusive-Ecommerce-Store",
+    liveLink: "https://exclusive-ecommerce-store-abdul.vercel.app/",
+  },
+  {
     id: 2,
     img: "./SwyftPay.png",
     title: "Swyft Pay Website Clone",
@@ -22,6 +30,7 @@ export const project = [
     lang: "HTML5, CSS3, JavaScript & Gemini API",
     github: "https://github.com/OlaiwonAbdullahi/Team-Wagmi-AI/",
     liveLink: "https://team-wagmi-ai.netlify.app/",
+    contributor: "Joseph Lamidi,John Nwabueze",
   },
   {
     id: 4,
@@ -34,11 +43,22 @@ export const project = [
   {
     id: 5,
     img: "./Unity.png",
-    title: "Unity High School Website",
+    title: "Unity High School Website ",
     lang: "HTML/CSS, JavaScript, Bootstrap & AOS",
     github: "https://github.com/OlaiwonAbdullahi/UHSijokoota-website",
     liveLink: "https://unityhighschoolijokoota.netlify.app/",
+    contributor: "Joseph Lamidi,John Nwabueze",
   },
+  {
+    id: 6,
+    img: "./Unity.png",
+    title: "Unity High School Website v2 ",
+    lang: "ReactJS & TailwindCSS,",
+    github: "https://github.com/OlaiwonAbdullahi/UnityHighSch-v2",
+    liveLink: "https://unityhighschool.vercel.app/",
+    contributor: "Joseph Lamidi",
+  },
+
   {
     id: 6,
     img: "./nft-store.png",
@@ -72,11 +92,19 @@ export const project = [
     liveLink: "https://abdul-todoapp.netlify.app/",
   },
   {
-    id: 9,
+    id: 10,
     img: "./linkedin.png",
     title: "LinkedIn Clone",
     lang: "ReactJS, TailwindCSS, Firebase",
     github: "https://github.com/OlaiwonAbdullahi/Portfolio-V2",
     liveLink: "https://abdullahiolaiwon.netlify.app/",
+  },
+  {
+    id: 11,
+    img: "./websearch.png",
+    title: "Web Search & Crypto Price Tracker",
+    lang: "ReactJS, TailwindCSS, CoinGecko Api, Google Search Api and Gemini Api",
+    github: "https://github.com/OlaiwonAbdullahi/Web3-Search",
+    liveLink: "https://web3-search-abdul.vercel.app/",
   },
 ];

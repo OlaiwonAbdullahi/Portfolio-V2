@@ -3,11 +3,10 @@ import github from "../assets/github.svg";
 import arrow from "../assets/arrow.svg";
 import { project } from "../Data";
 import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
+import "aos/dist/aos.css";
 
 AOS.init();
 
-// Define the type for the project data
 interface Project {
   id: number;
   img: string;
@@ -17,7 +16,6 @@ interface Project {
   liveLink: string;
 }
 
-// Define the props type for the Work component
 interface WorkProps {
   work: Project;
 }

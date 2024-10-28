@@ -10,8 +10,7 @@ import tailwind from "../assets/tailwind-css.svg";
 import redux from "../assets/redux.svg";
 import firebase from "../assets/firebase.svg";
 import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
-// ..
+import "aos/dist/aos.css";
 AOS.init();
 
 export default function Skills() {

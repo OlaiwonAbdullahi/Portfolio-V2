@@ -1,4 +1,3 @@
-// Import React if you're using JSX
 import github from "../assets/github.svg";
 import arrow from "../assets/arrow.svg";
 import { project } from "../Data";

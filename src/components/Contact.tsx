@@ -6,7 +6,6 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export default function Contact() {
-  // Define the type of the form ref as HTMLFormElement
   const form = useRef<HTMLFormElement>(null);
 
   useEffect(() => {
@@ -25,7 +24,7 @@ export default function Contact() {
       .sendForm(
         "service_pki7w44",
         "template_73y3nu3",
-        form.current, // The form ref is guaranteed to be HTMLFormElement
+        form.current,
         "v4xrfO__Rz_U3roqy"
       )
       .then(
@@ -50,7 +49,7 @@ export default function Contact() {
 
   return (
     <div className="text-center px-4 md:px-0 mb-24">
-      <ToastContainer /> {/* Ensure ToastContainer is rendered */}
+      <ToastContainer />
       <h2
         className="text-2xl md:text-4xl text-white font-Maven font-semibold mt-24"
         data-aos="fade-right"

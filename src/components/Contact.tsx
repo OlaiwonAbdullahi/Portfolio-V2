@@ -100,7 +100,7 @@ export default function Contact() {
 
           <button
             type="submit"
-            className="bg-white flex items-center justify-center mx-auto text-Background px-6 py-3 rounded-xl font-poppins w-1/2 font-semibold text-sm md:text-base"
+            className="bg-white flex items-center justify-center mx-auto text-Background px-6 py-3 rounded-xl font-poppins md:w-1/2 w-full font-semibold text-sm md:text-base"
           >
             Get In Touch
           </button>

@@ -13,6 +13,7 @@ interface Project {
   lang: string;
   github: string;
   liveLink: string;
+  contributor: string;
 }
 
 interface WorkProps {
@@ -77,6 +78,9 @@ function Work({ work }: WorkProps) {
 
       <span className="text-textColor font-kanit mt-5 text-sm block">
         Technologies Used: {work.lang}
+      </span>
+      <span className="text-Reserved italic text-sm">
+        Contributors: {work.contributor || "null"}
       </span>
     </div>
   );

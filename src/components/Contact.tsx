@@ -2,6 +2,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import emailjs from "@emailjs/browser";
 import { useRef, useEffect } from "react";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function Contact() {
   const form = useRef();
@@ -22,9 +24,18 @@ export default function Contact() {
       )
       .then(
         () => {
+          toast.success("Message sent successfully!", {
+            theme: "dark",
+            position: "top-center",
+            //icon: "🚀",
+          });
           console.log("SUCCESS!");
         },
         (error) => {
+          toast.error("Failed to send message. Try again later.", {
+            theme: "dark",
+            icon: "⚠️",
+          });
           console.log("FAILED...", error.text);
         }
       );

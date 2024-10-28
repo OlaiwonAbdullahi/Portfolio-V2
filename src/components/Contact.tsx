@@ -1,8 +1,35 @@
 import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
-// ..
-AOS.init();
+import "aos/dist/aos.css";
+import emailjs from "@emailjs/browser";
+import { useRef, useEffect } from "react";
+
 export default function Contact() {
+  const form = useRef();
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_pki7w44",
+        "template_73y3nu3",
+        form.current,
+        "v4xrfO__Rz_U3roqy"
+      )
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
+
   return (
     <div className="text-center px-4 md:px-0 mb-24">
       <h2
@@ -23,14 +50,16 @@ export default function Contact() {
         data-aos="fade-up"
       >
         <form
-          action=""
           className="flex flex-col items-center"
           onSubmit={sendEmail}
+          ref={form}
         >
           <input
             type="text"
             placeholder="Your Name"
             id="name"
+            name="from_name"
+            required
             className="w-full md:w-3/4 lg:w-1/2 px-3 py-2 border border-Reserved rounded-md bg-Background mb-4 text-sm md:text-base text-NavColor font-inter"
           />
 
@@ -38,30 +67,26 @@ export default function Contact() {
             type="email"
             placeholder="Your Email"
             id="email"
+            name="email"
+            required
             className="w-full md:w-3/4 lg:w-1/2 px-3 py-2 border border-Reserved rounded-md bg-Background mb-4 text-sm md:text-base text-NavColor font-inter"
           />
 
           <textarea
             placeholder="Your Message"
             id="message"
-            className="w-full md:w-3/4 lg:w-1/2 h-36 px-3 py-2 border border-Reserved rounded-md bg-Background text-sm md:text-base text-NavColor font-inter"
+            name="message"
+            required
+            className="w-full md:w-3/4 lg:w-1/2 h-36 px-3 py-2 border border-Reserved rounded-md bg-Background text-sm md:text-base text-NavColor font-inter mb-4"
           />
-        </form>
 
-        <div className="flex justify-center mt-6 px-4 sm:px-0">
-          <a
-            href="mailto:olaiwonabdullahi@gmail.com"
-            className="w-full md:w-3/4 lg:w-1/2"
+          <button
+            type="submit"
+            className="bg-white flex items-center justify-center mx-auto text-Background px-6 py-3 rounded-xl font-poppins w-1/2 font-semibold text-sm md:text-base"
           >
-            <button
-              type="submit"
-              value="Send"
-              className="bg-white text-Background px-6 py-3 rounded-xl font-poppins w-full font-semibold text-sm md:text-base"
-            >
-              Get In Touch
-            </button>
-          </a>
-        </div>
+            Get In Touch
+          </button>
+        </form>
       </div>
     </div>
   );

@@ -60,7 +60,7 @@ export default function Contact() {
             id="name"
             name="from_name"
             required
-            className="w-full md:w-3/4 lg:w-1/2 px-3 py-2 border border-Reserved rounded-md bg-Background mb-4 text-sm md:text-base text-NavColor font-inter"
+            className="w-full md:w-3/4 lg:w-1/2 px-3 py-2 focus:outline-none border border-Reserved rounded-md bg-Background mb-4 text-sm md:text-base text-NavColor font-inter"
           />
 
           <input
@@ -69,7 +69,7 @@ export default function Contact() {
             id="email"
             name="email"
             required
-            className="w-full md:w-3/4 lg:w-1/2 px-3 py-2 border border-Reserved rounded-md bg-Background mb-4 text-sm md:text-base text-NavColor font-inter"
+            className="w-full md:w-3/4 lg:w-1/2 px-3 focus:outline-none py-2 border border-Reserved rounded-md bg-Background mb-4 text-sm md:text-base text-NavColor font-inter"
           />
 
           <textarea
@@ -77,7 +77,7 @@ export default function Contact() {
             id="message"
             name="message"
             required
-            className="w-full md:w-3/4 lg:w-1/2 h-36 px-3 py-2 border border-Reserved rounded-md bg-Background text-sm md:text-base text-NavColor font-inter mb-4"
+            className="w-full md:w-3/4 lg:w-1/2 focus:outline-none h-36 px-3 py-2 border border-Reserved rounded-md bg-Background text-sm md:text-base text-NavColor font-inter mb-4"
           />
 
           <button

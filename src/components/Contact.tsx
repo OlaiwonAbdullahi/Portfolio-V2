@@ -34,7 +34,7 @@ export default function Contact() {
         (error) => {
           toast.error("Failed to send message. Try again later.", {
             theme: "dark",
-            icon: "⚠️",
+            //icon: "⚠️",
           });
           console.log("FAILED...", error.text);
         }

@@ -1,7 +1,7 @@
 import { Tweet } from "react-tweet";
 export default function Post() {
   return (
-    <div className="flex flex-col items-center justify-center h-full w-full mt-8">
+    <div className="flex flex-col items-center justify-center h-full w-full mt-8 p-4 ">
       <h2 className="text-center mb-4 text-4xl font-semibold font-Maven text-white">
         Featured Posts
       </h2>

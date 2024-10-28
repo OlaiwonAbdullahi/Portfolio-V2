@@ -6,35 +6,42 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export default function Contact() {
-  const form = useRef();
+  // Define the type of the form ref as HTMLFormElement
+  const form = useRef<HTMLFormElement>(null);
 
   useEffect(() => {
     AOS.init();
   }, []);
 
-  const sendEmail = (e) => {
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    if (!form.current) {
+      console.error("Form reference is null.");
+      return;
+    }
 
     emailjs
       .sendForm(
         "service_pki7w44",
         "template_73y3nu3",
-        form.current,
+        form.current, // The form ref is guaranteed to be HTMLFormElement
         "v4xrfO__Rz_U3roqy"
       )
       .then(
         () => {
           toast.success("Message sent successfully!", {
             theme: "dark",
+            // icon: "🚀",
             position: "top-center",
-            //icon: "🚀",
           });
           console.log("SUCCESS!");
         },
         (error) => {
           toast.error("Failed to send message. Try again later.", {
             theme: "dark",
-            //icon: "⚠️",
+            // icon: "⚠️",
+            position: "top-center",
           });
           console.log("FAILED...", error.text);
         }
@@ -43,6 +50,7 @@ export default function Contact() {
 
   return (
     <div className="text-center px-4 md:px-0 mb-24">
+      <ToastContainer /> {/* Ensure ToastContainer is rendered */}
       <h2
         className="text-2xl md:text-4xl text-white font-Maven font-semibold mt-24"
         data-aos="fade-right"
@@ -55,7 +63,6 @@ export default function Contact() {
       >
         Let's Work Together
       </span>
-
       <div
         className="mt-7 w-full md:w-2/3 flex flex-col mx-auto"
         data-aos="fade-up"

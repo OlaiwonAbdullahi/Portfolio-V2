@@ -22,7 +22,11 @@ export default function Contact() {
         className="mt-7 w-full md:w-2/3 flex flex-col mx-auto"
         data-aos="fade-up"
       >
-        <form action="" className="flex flex-col items-center">
+        <form
+          action=""
+          className="flex flex-col items-center"
+          onSubmit={sendEmail}
+        >
           <input
             type="text"
             placeholder="Your Name"
@@ -49,7 +53,11 @@ export default function Contact() {
             href="mailto:olaiwonabdullahi@gmail.com"
             className="w-full md:w-3/4 lg:w-1/2"
           >
-            <button className="bg-white text-Background px-6 py-3 rounded-xl font-poppins w-full font-semibold text-sm md:text-base">
+            <button
+              type="submit"
+              value="Send"
+              className="bg-white text-Background px-6 py-3 rounded-xl font-poppins w-full font-semibold text-sm md:text-base"
+            >
               Get In Touch
             </button>
           </a>

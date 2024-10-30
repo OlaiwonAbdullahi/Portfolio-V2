@@ -114,4 +114,12 @@ export const project = [
     github: "https://github.com/OlaiwonAbdullahi/Portfolio-V2",
     liveLink: "https://abdullahiolaiwon.netlify.app/",
   },
+  {
+    id: 15,
+    img: "./wurafarm.png",
+    title: "Wuraola Farms Website",
+    lang: "ReactJS, TailwindCSS",
+    github: "https://github.com/OlaiwonAbdullahi/WuraOla-Farms",
+    liveLink: "https://wuraolafarms.vercel.app/",
+  },
 ];

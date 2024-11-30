@@ -32,7 +32,7 @@ export default function Footer() {
 
       <hr className="border border-Reserved mt-6"></hr>
 
-      <div className="flex flex-col-reversed md:flex-row ">
+      <div className="flex flex-col md:flex-row ">
         <div className="basis-1/2 my-8">
           <span className="font-poppins  text-Reserved md:ml-24 text-center flex mx-auto justify-center md:justify-start">
             &copy; 2024 All Right Reserved

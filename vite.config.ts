@@ -9,9 +9,9 @@ export default defineConfig({
       registerType: "prompt",
       includeAssets: ["favicon.ico", "robots.txt"],
       manifest: {
-        name: "My React PWA",
-        short_name: "ReactPWA",
-        description: "A Progressive Web App built with React and Vite",
+        name: "Abdullahi Olaiwon Portfolio",
+        short_name: "Abdullahi",
+        description: "This website contains Projects by Abdullahi Olaiwon ",
         start_url: "/",
         display: "standalone",
         background_color: "#ffffff",
